@@ -8,34 +8,105 @@
 </p>
 
 
-# Blog Post Manager 📄
+<h1>📄 Blog Post Manager</h1>
 
-A Laravel 11 + Tailwind CSS blog post manager with a clean UI.
+<p>A lightweight blog post manager built with <strong>Laravel 11</strong> and <strong>Tailwind CSS</strong>. It allows users to create, read, update, and delete posts with pagination and a modern UI.</p>
 
-##  Setup Instructions
+<hr>
 
-1. Clone the repository:
+<h2>🚀 Setup Instructions</h2>
 
-git clone https://github.com/Heshan001/blog-post-manager.git 
-cd blog-post-manager
+<ol>
+  <li><strong>Clone the Repository:</strong>
+    <pre><code>git clone https://github.com/YOUR-USERNAME/blog-post-manager.git
+cd blog-post-manager</code></pre>
+  </li>
+  <li><strong>Install PHP Dependencies:</strong>
+    <pre><code>composer install</code></pre>
+  </li>
+  <li><strong>Install Node.js Dependencies:</strong>
+    <pre><code>npm install
+npm run dev</code></pre>
+  </li>
+  <li><strong>Configure Environment:</strong>
+    <pre><code>cp .env.example .env
+php artisan key:generate</code></pre>
+  </li>
+  <li><strong>Set up the Database:</strong>
+    <pre><code>php artisan migrate --seed</code></pre>
+  </li>
+  <li><strong>Start the Development Server:</strong>
+    <pre><code>php artisan serve</code></pre>
+  </li>
+</ol>
+
+<hr>
+
+<h2>🖼️ UI Screenshots</h2>
+
+<p><strong>Dashboard</strong></p>
+<img src="screenshots/dashboard.png" width="100%" alt="Dashboard"> <br>
+
+<p><strong>Create New Post</strong></p>
+<img src="screenshots/create post.png" width="100%" alt="Create Post"><br>
+
+<p><strong>view single post</strong></p>
+<img src="screenshots/view single post.png" width="100%" alt="view single post"><br>
+
+<p><strong>edit post</strong></p>
+<img src="screenshots/edit post.png" width="100%" alt="Cedit post"><br>
+
+<p><strong>flash message after create new post</strong></p>
+<img src="screenshots/flash message after create new post.png" width="100%" alt="flash message after create new post"><br>
+
+<p><strong>delete confirmation</strong></p>
+<img src="screenshots/delete confirmation.png" width="100%" alt="delete confirmation"><br>
+
+<p><strong>post delete flash message</strong></p>
+<img src="screenshots/post delete flash message.png" width="100%" alt="post delete flash message"><br>
+
+<p><strong>pagination 1 page max 5 posts</strong></p>
+<img src="screenshots/pagination 1 page max 5 posts.png" width="100%" alt="pagination 1 page max 5 posts"><br>
 
 
-2. Install dependencies:
-composer install npm install && npm run dev
+<hr>
 
+<h2>📌 Features</h2>
 
-3. Create `.env`:
-cp .env.example .env php artisan key:generate
+<ul>
+  <li>Laravel 11 with Eloquent ORM</li>
+  <li>Tailwind CSS UI</li>
+  <li>CRUD (Create, Read, Update, Delete)</li>
+  <li>Pagination with page-aware delete</li>
+  <li>Flash messages & error handling</li>
+  <li>Clean Git-based project structure</li>
+</ul>
 
+<hr>
 
-4. Set your database config in `.env` and run:
-php artisan migrate --seed
+<h2>📂 Folder Structure</h2>
 
+<ul>
+  <li><code>/resources/views</code> – Blade templates</li>
+  <li><code>/routes/web.php</code> – Route definitions</li>
+  <li><code>/app/Http/Controllers/PostController.php</code> – Logic controller</li>
+</ul>
 
-5. Start the project:
-   npm run dev
-   php artisan serve ( in another shell)
+<hr>
 
+<h2>📌 Evaluation Criteria</h2>
 
+<ul>
+  <li>✅ Proper use of Laravel 11 features</li>
+  <li>✅ Tailwind layout and styling</li>
+  <li>✅ Clean, maintainable code</li>
+  <li>✅ Basic validation and error handling</li>
+  <li>✅ Git project structure</li>
+</ul>
 
-   Thank You!!!!
+<hr>
+
+<h2>📫 Contact</h2>
+
+<p>Developed by <strong>Supun Abayarathna </strong> </p>
+
